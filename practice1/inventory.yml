@@ -1,0 +1,17 @@
+devices:
+  - host: 192.168.177.131
+    username: ramesh
+    password: cisco123
+    secret: cisco123
+    device_type: cisco_ios
+  - host: 192.168.177.132
+    username: phani1
+    password: phani123
+    secret: cisco123
+    device_type: cisco_ios
+  - host: 192.168.177.133
+    username: phani
+    password: cisco123
+    secret: cisco123
+    device_type: cisco_ios
+  

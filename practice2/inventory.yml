@@ -1,0 +1,57 @@
+routers:
+  R4:
+    device_type: cisco_ios
+    host: 192.168.177.134
+    username: phani
+    password: cisco123
+    asn: 65002
+    interfaces:
+      - name: g3/0
+        ip: 192.168.4.2
+        mask: 255.255.255.0
+      - name: g2/0
+        ip: 192.168.5.2
+        mask: 255.255.255.0
+    neighbors:
+      - ip: 192.168.4.3
+        remote_as: 65003
+      - ip: 192.168.5.3
+        remote_as: 65004
+
+  R5:
+    device_type: cisco_ios
+    host: 192.168.177.135
+    username: phani
+    password: cisco123
+    asn: 65003
+    interfaces:
+      - name: g2/0
+        ip: 192.168.5.3
+        mask: 255.255.255.0
+      - name: g3/0
+        ip: 192.168.6.3
+        mask: 255.255.255.0
+    neighbors:
+      - ip: 192.168.5.2
+        remote_as: 65002
+      - ip: 192.168.6.4
+        remote_as: 65004
+
+  R6:
+    device_type: cisco_ios
+    host: 192.168.177.136
+    username: phani
+    password: cisco123
+    asn: 65004
+    interfaces:
+      - name: g3/0
+        ip: 192.168.6.4
+        mask: 255.255.255.0
+      - name: g2/0
+        ip: 192.168.4.3
+        mask: 255.255.255.0
+    neighbors:
+      - ip: 192.168.6.3
+        remote_as: 65003
+      - ip: 192.168.4.2
+        remote_as: 65005
