@@ -1,0 +1,30 @@
+2026-04-26 18:20:49,331 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:20:49,331 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:20:49,332 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:20:50,321 - INFO - Authentication (password) successful!
+2026-04-26 18:20:50,367 - INFO - Authentication (password) successful!
+2026-04-26 18:20:50,368 - INFO - Authentication (password) successful!
+2026-04-26 18:20:52,183 - INFO - [BACKUP] Device 192.168.177.133 backup saved to backups/192.168.177.133_20260426_182052_backup.txt
+2026-04-26 18:20:52,259 - INFO - [BACKUP] Device 192.168.177.132 backup saved to backups/192.168.177.132_20260426_182052_backup.txt
+2026-04-26 18:20:52,309 - INFO - [BACKUP] Device 192.168.177.131 backup saved to backups/192.168.177.131_20260426_182052_backup.txt
+2026-04-26 18:22:23,991 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:22:23,992 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:22:23,992 - INFO - Connected (version 2.0, client Cisco-1.25)
+2026-04-26 18:22:24,787 - INFO - Authentication (password) successful!
+2026-04-26 18:22:24,864 - INFO - Authentication (password) successful!
+2026-04-26 18:22:24,911 - INFO - Authentication (password) successful!
+2026-04-26 18:22:25,529 - INFO - 192.168.177.131 - 3.3.3.3 OSPF FULL
+2026-04-26 18:22:25,530 - INFO - 192.168.177.131 - 2.2.2.2 OSPF FULL
+2026-04-26 18:22:25,530 - INFO - 192.168.177.131 - 2.2.2.2 BGP OK
+2026-04-26 18:22:25,530 - INFO - 192.168.177.131 - 3.3.3.3 BGP OK
+2026-04-26 18:22:25,530 - INFO - 192.168.177.131 - 192.168.1.2 BGP OK
+2026-04-26 18:22:25,531 - INFO - 192.168.177.133 - 1.1.1.1 OSPF FULL
+2026-04-26 18:22:25,531 - INFO - 192.168.177.131 - 192.168.2.3 BGP OK
+2026-04-26 18:22:25,531 - INFO - 192.168.177.133 - 1.1.1.1 BGP OK
+2026-04-26 18:22:25,531 - INFO - [HEALTH_CHECK] Device 192.168.177.131 - OSPF: PASS, BGP: PASS
+2026-04-26 18:22:25,531 - INFO - 192.168.177.133 - 192.168.2.1 BGP OK
+2026-04-26 18:22:25,532 - INFO - [HEALTH_CHECK] Device 192.168.177.133 - OSPF: PASS, BGP: PASS
+2026-04-26 18:22:25,572 - INFO - 192.168.177.132 - 1.1.1.1 OSPF FULL
+2026-04-26 18:22:25,573 - INFO - 192.168.177.132 - 1.1.1.1 BGP OK
+2026-04-26 18:22:25,573 - INFO - 192.168.177.132 - 192.168.1.1 BGP OK
+2026-04-26 18:22:25,573 - INFO - [HEALTH_CHECK] Device 192.168.177.132 - OSPF: PASS, BGP: PASS

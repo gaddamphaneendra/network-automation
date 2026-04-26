@@ -1,0 +1,5 @@
+fastapi
+uvicorn
+netmiko
+requests
+python-dotenv
